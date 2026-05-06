@@ -251,6 +251,20 @@
         display: none;
     }
 
+    .hero__section {
+        background: url('../img/Back_1.png') repeat;
+        background-size: 100%;
+        display: flex;
+        width: 100%;
+        min-height: 800px;
+    }
+
+    .hero__main {
+        background: url("../img/ab.png") no-repeat;
+        background-position: center 100%;
+        background-size: 250%;
+    }
+
     .reviews__top {
         padding: 50px 20px;
         min-height: auto;
