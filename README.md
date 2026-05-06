@@ -3,7 +3,7 @@ A modern, responsive landing page built from a professional Figma design. This p
 
 Links
 
-Live Demo: [[Insert your Link here, e.g., GitHub Pages](https://igorkolesnikov2323-tech.github.io/SquareUp/)]
+Live Demo: [https://igorkolesnikov2323-tech.github.io/SquareUp/]
 
 Figma Design: [https://www.figma.com/design/zQYAT0voMHBTF3hH9FrWYS/Digital-Agency-Company-Website-UI-Design-Template-in-Dark-Theme---FREE-Editable----Community-?node-id=3-53&p=f&t=uQldHV0hz6ObZhFG-0]
 
