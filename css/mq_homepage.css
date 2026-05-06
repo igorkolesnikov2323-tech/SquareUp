@@ -183,6 +183,117 @@
         height: 1px;
         background-color: var(--grey-15);
     }
+
+    .services__item {
+        min-height: 344px;
+        padding: 40px;
+    }
+
+    .design__container {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .design__logo {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .design__textbox {
+        display: contents;
+    }
+
+    .design__title {
+        grid-column: 2;
+        grid-row: 1;
+        margin: 0;
+    }
+
+    .design__text {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        margin-top: 20px;
+        line-height: 160%;
+        margin-right: 63px;
+    }
+
+    .pmanagement__container {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .pmanagement__logo {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .pmanagement__textbox {
+        display: contents;
+    }
+
+    .pmanagement__title {
+        grid-column: 2;
+        grid-row: 1;
+        margin: 0;
+    }
+
+    .pmanagement__text {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        margin-top: 20px;
+        line-height: 160%;
+        margin-right: 63px;
+    }
+
+    .engeneering__container {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .engeneering__logo {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .engeneering__textbox {
+        display: contents;
+    }
+
+    .engeneering__title {
+        grid-column: 2;
+        grid-row: 1;
+        margin: 0;
+    }
+
+    .engeneering__text {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        margin-top: 20px;
+        line-height: 160%;
+        margin-right: 63px;
+    }
+
+    .design__container {
+        margin-bottom: 24px;
+    }
+
+    .engeneering__container {
+        margin-bottom: 24px;
+    }
+
+    .pmanagement__container {
+        margin-bottom: 24px;
+    }
+
+    .services__button{
+        min-height: 62px;
+    }
 }
 
 @media (max-width:1000px) {
