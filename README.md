@@ -3,7 +3,7 @@ A modern, responsive landing page built from a professional Figma design. This p
 
 Links
 
-Live Demo: [Insert your Link here, e.g., GitHub Pages]
+Live Demo: [[Insert your Link here, e.g., GitHub Pages](https://igorkolesnikov2323-tech.github.io/SquareUp/)]
 
 Figma Design: [https://www.figma.com/design/zQYAT0voMHBTF3hH9FrWYS/Digital-Agency-Company-Website-UI-Design-Template-in-Dark-Theme---FREE-Editable----Community-?node-id=3-53&p=f&t=uQldHV0hz6ObZhFG-0]
 
@@ -44,4 +44,5 @@ Installation & Usage
 2. Open `index.html` in your browser. No build process or dependencies required.
 ### My Goals with this Project
 I built this project to practice **modern CSS organization**. My focus was on solving common layout challenges using Flexbox and ensuring that the cascade remains predictable by separating global styles from component-specific ones[cite: 13, 15].
+
 <img width="1837" height="1025" alt="Снимок экрана 2026-05-06 131104" src="https://github.com/user-attachments/assets/b5f7b5e4-44c3-4c86-88bc-692a26058d86" />
