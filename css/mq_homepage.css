@@ -42,9 +42,9 @@
     }
 
     .services__item {
-        padding: 50px;
-        margin: 0 auto;
-        max-width: 532px;
+        padding: 40px;
+        margin: 0;
+        max-width: 100%;
         min-height: 577px;
         border: 1px solid var(--grey-15);
     }
@@ -189,73 +189,18 @@
         padding: 40px;
     }
 
-    .design__container {
-        display: grid;
-        grid-template-columns: auto 1fr;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .design__logo {
-        grid-column: 1;
-        grid-row: 1;
-    }
-
-    .design__textbox {
-        display: contents;
-    }
-
-    .design__title {
-        grid-column: 2;
-        grid-row: 1;
-        margin: 0;
-    }
-
-    .design__text {
-        grid-column: 1 / -1;
-        grid-row: 2;
-        margin-top: 20px;
-        line-height: 160%;
-        margin-right: 63px;
-    }
-
-    .pmanagement__container {
-        display: grid;
-        grid-template-columns: auto 1fr;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .pmanagement__logo {
-        grid-column: 1;
-        grid-row: 1;
-    }
-
-    .pmanagement__textbox {
-        display: contents;
-    }
-
-    .pmanagement__title {
-        grid-column: 2;
-        grid-row: 1;
-        margin: 0;
-    }
-
-    .pmanagement__text {
-        grid-column: 1 / -1;
-        grid-row: 2;
-        margin-top: 20px;
-        line-height: 160%;
-        margin-right: 63px;
-    }
-
+    .design__container,
+    .pmanagement__container,
     .engeneering__container {
         display: grid;
         grid-template-columns: auto 1fr;
         align-items: center;
-        gap: 20px;
+        column-gap: 20px;
+        margin-bottom: 24px;
     }
 
+    .design__logo,
+    .pmanagement__logo,
     .engeneering__logo {
         grid-column: 1;
         grid-row: 1;
@@ -265,35 +210,34 @@
         display: contents;
     }
 
+    .pmanagement__title,
+    .design__title,
     .engeneering__title {
         grid-column: 2;
         grid-row: 1;
         margin: 0;
     }
 
+    .pmanagement__text,
+    .design__text,
     .engeneering__text {
         grid-column: 1 / -1;
         grid-row: 2;
         margin-top: 20px;
         line-height: 160%;
-        margin-right: 63px;
-    }
-
-    .design__container {
-        margin-bottom: 24px;
-    }
-
-    .engeneering__container {
-        margin-bottom: 24px;
-    }
-
-    .pmanagement__container {
-        margin-bottom: 24px;
     }
 
     .services__button{
         min-height: 62px;
     }
+
+    .design__textbox, 
+.engeneering__textbox, 
+.pmanagement__textbox {
+    height: auto;
+    min-height: 200px; 
+    display: contents;
+}
 }
 
 @media (max-width:1000px) {
