@@ -35,7 +35,7 @@ top: 26%;
 .services__title {
     max-width: 100%;
     min-height: 338px;
-    background: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.801)), url("img/servicesback.png") no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.801)), url("../img/servicesback.png") no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -180,7 +180,7 @@ top: 26%;
 }
 
 .about__top {
-    background: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.801)), url("img/about.png") no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.801)), url("../img/about.png") no-repeat;
     min-height: 336px;
     max-width: 100%;
     display: flex;
@@ -347,7 +347,7 @@ top: 26%;
 
 .reviews__top {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-        url("img/rewiew.png") no-repeat center / cover;
+        url("../img/rewiew.png") no-repeat center / cover;
     min-height: 366px;
     width: 100%;
     display: flex;
@@ -487,7 +487,7 @@ top: 26%;
 
 .questions__top {
     background: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.801)),
-        url("img/questions.png") no-repeat center / cover;
+        url("../img/questions.png") no-repeat center / cover;
     min-height: 335px;
     width: 100%;
     display: flex;
@@ -661,7 +661,7 @@ top: 26%;
     justify-content: center;
     flex-direction: column;
     gap: 50px;
-    background: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.801)), url("img/Form_background.png") no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.801)), url("../img/Form_background.png") no-repeat;
     min-height: 597px;
 }
 
