@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    background: #191919;
+}
+
+.container {
+    max-width: 1596px;
+    margin: auto;
+    border: 1px solid var(--grey-15);
+    border-top: 0 solid var(--grey-15);
+    border-bottom: 0 solid var(--grey-15);
+}
+
+.container__header {
+    max-width: 1596px;
+    margin: auto;
+}
+
+.container__footer {
+    max-width: 1596px;
+    margin: auto;
+}
